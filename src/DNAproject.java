@@ -1,4 +1,3 @@
-
 public class DNAproject {
 
 	/**
@@ -34,14 +33,14 @@ public class DNAproject {
 			}
 			
 			for (int i = 0; i < DNA_samples.length; i++) {
-				System.out.print("DNA »ùÇÃ "+(i+1)+"ÀÇ ÀÏÄ¡Ç¥ : ");
+				System.out.print("DNA ìƒ˜í”Œ "+(i+1)+"ì˜ ì¼ì¹˜í‘œ : ");
 				for(int j = 0; j < args.length; j++)
 					System.out.print(DNA_cor[i][j]);
 				System.out.println();
-				System.out.println("ÀÏÄ¡À² : "+(DNA_point[i]+"%"));			
+				System.out.println("ì¼ì¹˜ìœ¨ : "+(DNA_point[i]+"%"));			
 			}
 		}
-		else System.out.println("ÀÔ·ÂµÈ DNA °³¼ö¿Í ¸ÂÁö ¾Ê½À´Ï´Ù.");
+		else System.out.println("ìž…ë ¥ëœ DNA ê°œìˆ˜ì™€ ë§žì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		}
 
 }
